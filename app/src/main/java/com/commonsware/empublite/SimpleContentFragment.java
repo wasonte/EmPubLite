@@ -17,7 +17,7 @@ public class SimpleContentFragment extends WebViewFragment {
 
     private static final String KEY_FILE = "file";
 
-    private static SimpleContentFragment newInstance(String file){
+    static SimpleContentFragment newInstance(String file){
         SimpleContentFragment f = new SimpleContentFragment();
         Bundle args = new Bundle();
 
